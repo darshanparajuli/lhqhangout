@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Module>
+    <ModulePrefs title="Test App">
+        <Require feature="rpc"/>
+        <Require feature="views"/>
+    </ModulePrefs>
+    <Content type="html">
+        <![CDATA[
+    <!-- Your application code -->
+    <html>
+      <script src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script>
+      <script src="//lhqhangout.googlecode.com/git/lib/jquery.js"></script>
+            <script src="//lhqhangout.googlecode.com/git/lib/raphael-min.js"></script>
+      <script src="//lhqhangout.googlecode.com/git/js/require.js"></script>
+      <script src="//lhqhangout.googlecode.com/git/js/main.js"></script>
+      <link rel="stylesheet" type="text/css" href="//lhqhangout.googlecode.com/git/css/style.css" />
+
+      <div id="main">
+        <div id="container_canvas">
+          <canvas id="main_canvas">
+          </canvas>
+        </div>
+      </div>
+
+      <script>
+            function init() {
+                // When API is ready...
+                gapi.hangout.onApiReady.add(
+                    function(eventObj) {
+                        if (eventObj.isApiReady) {
+                            console.log("ready");
+                            gapi.hangout.data.onMessageReceived.add(onMessageReceived);
+                            initAll();
+                        }
+                });
+            }
+            gadgets.util.registerOnLoadHandler(init);
+      </script>
+    </html>
+    ]]>
+    </Content>
+</Module>
+
