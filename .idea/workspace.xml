@@ -6,7 +6,7 @@
     </list>
     <ignored path="hangout_app_new.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378158784046" ignored="false" />
+    <file path="/Dummy.txt" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378158804662" ignored="false" />
     <file path="/index.html" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378158747729" ignored="false" />
     <file path="/style.css" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378158480593" ignored="false" />
     <file path="/main.js" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378158516410" ignored="false" />
@@ -74,7 +74,7 @@
       <file leaf-file-name="hangout_app.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hangout_app.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="86" selection-start="737" selection-end="737" vertical-scroll-proportion="0.3665521">
+            <state line="24" column="86" selection-start="895" selection-end="895" vertical-scroll-proportion="0.5498282">
               <folding />
             </state>
           </provider>
@@ -386,7 +386,11 @@
       <created>1378158785682</created>
       <updated>1378158785682</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="asdf">
+      <created>1378158820826</created>
+      <updated>1378158820826</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -540,7 +544,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hangout_app.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="86" selection-start="737" selection-end="737" vertical-scroll-proportion="0.3665521">
+        <state line="24" column="86" selection-start="895" selection-end="895" vertical-scroll-proportion="0.5498282">
           <folding />
         </state>
       </provider>
