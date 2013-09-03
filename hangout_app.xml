@@ -11,17 +11,18 @@
     <html>
       <script src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script>
       <script src="//lhqhangout.googlecode.com/git/lib/jquery.js"></script>
-            <script src="//lhqhangout.googlecode.com/git/lib/raphael-min.js"></script>
+      <script src="//lhqhangout.googlecode.com/git/lib/raphael-min.js"></script>
       <script src="//lhqhangout.googlecode.com/git/js/require.js"></script>
+      <script src="//lhqhangout.googlecode.com/git/js/piano.js"></script>
       <script src="//lhqhangout.googlecode.com/git/js/main.js"></script>
       <link rel="stylesheet" type="text/css" href="//lhqhangout.googlecode.com/git/css/style.css" />
 
       <div id="main">
-        <div id="container_canvas">
-          <canvas id="main_canvas">
-          </canvas>
+            <div id="container_canvas">
+                <div id="canvas">
+                </div>
+            </div>
         </div>
-      </div>
 
       <script>
             function init() {
@@ -31,7 +32,7 @@
                         if (eventObj.isApiReady) {
                             console.log("ready");
                             gapi.hangout.data.onMessageReceived.add(onMessageReceived);
-                            initAll();
+                            init();
                         }
                 });
             }

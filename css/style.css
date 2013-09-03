@@ -9,11 +9,6 @@
 }
 
 #container_canvas {
-    height: 96%;
-    /*border: 1px solid #ff1600;*/
-}
-
-#canvas {
     padding-bottom: 0px;
     border: 2px solid #000;
 }
