@@ -7,7 +7,7 @@
     </list>
     <ignored path="hangout_app_new.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378577043148" ignored="false" />
+    <file path="/Dummy.txt" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378577173952" ignored="false" />
     <file path="/index.html" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378535172936" ignored="false" />
     <file path="/style.css" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378159701285" ignored="false" />
     <file path="/main.js" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378168567361" ignored="false" />
@@ -77,7 +77,7 @@
       <file leaf-file-name="hangout_app.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hangout_app.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="30" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.61053836">
+            <state line="12" column="5" selection-start="344" selection-end="344" vertical-scroll-proportion="0.12943871">
               <folding />
             </state>
           </provider>
@@ -86,7 +86,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="51" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0">
+            <state line="26" column="51" selection-start="727" selection-end="727" vertical-scroll-proportion="-17.931034">
               <folding />
             </state>
           </provider>
@@ -440,7 +440,11 @@
       <created>1378577045241</created>
       <updated>1378577045241</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updated!">
+      <created>1378577179076</created>
+      <updated>1378577179076</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -617,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="51" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/piano.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="30" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
@@ -638,9 +635,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="51" selection-start="727" selection-end="727" vertical-scroll-proportion="-17.931034">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hangout_app.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="30" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.61053836">
+        <state line="12" column="5" selection-start="344" selection-end="344" vertical-scroll-proportion="0.12943871">
           <folding />
         </state>
       </provider>
