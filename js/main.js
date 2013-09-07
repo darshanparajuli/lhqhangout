@@ -16,7 +16,7 @@ function onMessageReceived(event) {
 }
 
 function init() {
-    $('#container_canvas').css({'width': WIDTH});
+   // $('#container_canvas').css({'width': WIDTH});
 
     // init raphael canvas
     paper = Raphael('canvas', WIDTH, HEIGHT);
