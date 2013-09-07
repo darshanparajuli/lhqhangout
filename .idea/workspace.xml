@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94a6d2d7-87d7-4c01-975b-b030bb028577" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hangout_app_new.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378577289171" ignored="false" />
+    <file path="/Dummy.txt" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378577302886" ignored="false" />
     <file path="/index.html" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378535172936" ignored="false" />
     <file path="/style.css" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378159701285" ignored="false" />
     <file path="/main.js" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378577297366" ignored="false" />
@@ -452,7 +451,11 @@
       <created>1378577291547</created>
       <updated>1378577291547</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="updated!">
+      <created>1378577304732</created>
+      <updated>1378577304732</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
