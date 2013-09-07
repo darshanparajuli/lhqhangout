@@ -4,7 +4,7 @@ function Key(pos, w, h, name, octave, type) {
     this.height = h;
     this.name = name;
     this.octave = octave;
-    this.rect = paper.rect(pos.x, pos.y, w, h).attr({fill: 'white'});
+    this.rect = paper.rect(pos.x, pos.y, w, h).attr({fill: (type == 'b') ? 'black' : 'white'});
     this.rect.node.id = name + '' + octave;
     this.type = type;
     this.animating = false;
@@ -13,8 +13,6 @@ function Key(pos, w, h, name, octave, type) {
     this.rect.mousedown(function () {
         _this.animateKey();
     });
-
-    this.rect.keyType = this;
 }
 
 Key.prototype.animateKey = function () {
@@ -59,10 +57,6 @@ PianoOctave.prototype.init = function () {
     this.blackKeys[2] = new Key(new Position(this.pos.x + ((4) * keyW) - keyW2 / 2, this.pos.y), keyW2, bKeyH, getNoteName(6, true), this.id, 'b');
     this.blackKeys[3] = new Key(new Position(this.pos.x + ((5) * keyW) - keyW2 / 2, this.pos.y), keyW2, bKeyH, getNoteName(8, true), this.id, 'b');
     this.blackKeys[4] = new Key(new Position(this.pos.x + ((6) * keyW) - keyW2 / 2, this.pos.y), keyW2, bKeyH, getNoteName(10, true), this.id, 'b');
-
-    for (var i = 0; i < this.blackKeys.length; i++) {
-        this.blackKeys[i].rect.attr({fill: 'black'});
-    }
 }
 
 function Piano(pos, w, h) {

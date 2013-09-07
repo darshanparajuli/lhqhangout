@@ -1,4 +1,4 @@
-var WIDTH = 1200, HEIGHT = 600;
+var WIDTH = 1600, HEIGHT = 800;
 
 var paper;
 
