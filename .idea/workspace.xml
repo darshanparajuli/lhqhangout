@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94a6d2d7-87d7-4c01-975b-b030bb028577" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jquery.js" afterPath="$PROJECT_DIR$/lib/jquery.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hangout_app_new.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378534959745" ignored="false" />
+    <file path="/Dummy.txt" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378535381737" ignored="false" />
     <file path="/index.html" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378535172936" ignored="false" />
     <file path="/style.css" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378159701285" ignored="false" />
     <file path="/main.js" changelist="94a6d2d7-87d7-4c01-975b-b030bb028577" time="1378168567361" ignored="false" />
@@ -86,7 +85,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="37" selection-start="354" selection-end="354" vertical-scroll-proportion="0.16587678">
+            <state line="2" column="34" selection-start="52" selection-end="52" vertical-scroll-proportion="0.047393367">
               <folding />
             </state>
           </provider>
@@ -420,7 +419,11 @@
       <created>1378534963787</created>
       <updated>1378534963787</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updated!">
+      <created>1378535384059</created>
+      <updated>1378535384059</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -620,7 +623,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="354" selection-end="354" vertical-scroll-proportion="0.16587678">
+        <state line="2" column="34" selection-start="52" selection-end="52" vertical-scroll-proportion="0.047393367">
           <folding />
         </state>
       </provider>
