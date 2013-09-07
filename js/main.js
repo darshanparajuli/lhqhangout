@@ -23,4 +23,6 @@ function init() {
 
     //piano = new Piano(new Position(PADDING, HEIGHT / 2 + PADDING), WIDTH - PADDING * 2, HEIGHT / 2 - PADDING * 2);
     //piano.init();
+
+    console.log('init complete.');
 }
