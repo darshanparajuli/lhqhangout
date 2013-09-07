@@ -32,7 +32,7 @@
                         if (eventObj.isApiReady) {
                             console.log("ready");
                             gapi.hangout.data.onMessageReceived.add(onMessageReceived);
-                            init();
+                            //init();
                         }
                 });
             }
