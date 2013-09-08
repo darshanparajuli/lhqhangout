@@ -18,12 +18,12 @@ function Key(pos, w, h, name, octave, type) {
 Key.prototype.animateKey = function () {
     if (this.animating) return;
 
-    var color = (this.type == 'b') ? 'black' : 'white';
+    var color = (this.type == 'b') ? 'rgba(0, 0, 0, 1)' : 'rgba(255, 255, 255, 1)';
     var speed = 200;
     this.animating = true;
 
     var _this = this;
-    this.rect.animate({height: _this.height - (_this.height * 0.05), fill: 'green'}, speed, 'ease-in-out', function () {
+    this.rect.animate({height: _this.height - (_this.height * 0.05), fill: 'rgba(0, 160, 0, 1)'}, speed, 'ease-in-out', function () {
         this.animate({height: _this.height, fill: color}, speed, 'ease-in-out', function () {
             _this.animating = false;
         });
@@ -84,4 +84,3 @@ Piano.prototype.init = function () {
     this.leftPiano.init();
     this.rightPiano.init();
 }
-
